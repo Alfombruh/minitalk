@@ -6,20 +6,20 @@
 /*   By: jofernan <jofernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 12:58:24 by jofernan          #+#    #+#             */
-/*   Updated: 2021/06/03 12:58:25 by jofernan         ###   ########.fr       */
+/*   Updated: 2021/09/15 15:08:28 by jofernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void	ft_char(int	nb, char *str, int	i)
+static void	ft_char(int nb, char *str, int i)
 {
 	if (nb / 10)
 		ft_char(nb / 10, str, i + 1);
 	str[i] = '0' + nb % 10;
 }
 
-static void	ft_rev_str(char	*str, int	lenght)
+static void	ft_rev_str(char	*str, int lenght)
 {
 	int	i;
 	int	temp;
