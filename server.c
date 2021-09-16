@@ -6,7 +6,7 @@
 /*   By: jofernan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:57:58 by jofernan          #+#    #+#             */
-/*   Updated: 2021/09/15 15:01:33 by jofernan         ###   ########.fr       */
+/*   Updated: 2021/09/15 15:10:48 by jofernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <stddef.h>
 #include "minitalk.h"
 
-static struct t_data	g_info;
+static struct s_data	g_info;
 
 static void	print_message(int bit)
 {

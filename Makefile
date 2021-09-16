@@ -35,7 +35,7 @@ clean :
 	@printf "\e[31m.o files deleted\e[0m\n"
 
 fclean : clean
-	@rm -f $(SERVER) $(CLIENT)
+	@rm -f $(SERVER) $(CLIENT) libft/libft.a
 	@printf "\e[31mServer and Client deleted + ratio\e[0m\n"
 
 all : $(SERVER) $(CLIENT)

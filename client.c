@@ -6,7 +6,7 @@
 /*   By: jofernan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:57:44 by jofernan          #+#    #+#             */
-/*   Updated: 2021/09/15 14:57:48 by jofernan         ###   ########.fr       */
+/*   Updated: 2021/09/15 15:15:58 by jofernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	error_message(void)
 {
 	ft_putstr_fd("\033[0;31m       ---ERROR--- \033[0m\n", 1);
 	ft_putstr_fd("\033[0;33m Try sending the message this way:\n", 1);
-	ft_putstr_fd("./client [pid] LOREM IPSUM\033[0m\n", 1);
+	ft_putstr_fd("./client [pid] LOREMIPSUM\033[0m\n", 1);
 }
 
 int	main(int argc, char **argv)
